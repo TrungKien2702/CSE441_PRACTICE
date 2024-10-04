@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="125dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="16dp"
+        android:text="No Result!"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtStaffId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtResult"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Staff ID" />
+
+    <EditText
+        android:id="@+id/edtStaffFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtStaffId"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Staff Full Name" />
+
+    <EditText
+        android:id="@+id/edtBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtStaffFullName"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Birth Date" />
+
+    <EditText
+        android:id="@+id/edtSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtBirthDate"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Salary" />
+
+    <Button
+        android:id="@+id/btnAddStaff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtSalary"
+        android:layout_marginTop="66dp"
+        android:text="ADD NEW STAFF" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtMessage"
+        android:layout_marginTop="67dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</RelativeLayout>
