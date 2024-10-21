@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:padding="16dp"
+    android:background="#E6F9E0">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyển đổi năm dương lịch"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#007E33"
+            android:padding="8dp"
+            android:gravity="center"
+            android:layout_span="2" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_gregorian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm dương lịch:"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/edit_gregorian_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập năm dương lịch"
+            android:inputType="number"
+            android:padding="8dp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/btn_convert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyển đổi"
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_gravity="center_horizontal"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_lunar_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm âm lịch:"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tv_lunar_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa chuyển đổi"
+            android:textSize="18sp"
+            android:background="#FFEB3B"
+            android:padding="8dp" />
+    </TableRow>
+
+</TableLayout>
+
