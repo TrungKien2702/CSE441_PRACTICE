@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <!-- Tiêu đề: Mã số bài hát -->
+    <TableRow>
+        <TextView
+            android:id="@+id/tvMaSo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã số"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <!-- Tên bài hát -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên bài hát:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTenBaiHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHÊN ĐẮNG (REMIX)"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <!-- Lời bài hát -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lời bài hát:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvLoiBaiHat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Một ngày anh nhớ, nhớ bóng hình em, trái tim...." />
+    </TableRow>
+
+    <!-- Tác giả -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tác giả:"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTacGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trương Lê Sơn" />
+    </TableRow>
+
+    <!-- Yêu Thích -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yêu Thích:"
+            android:textStyle="bold" />
+        <ImageButton
+            android:id="@+id/btnThongThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_love" />
+        <ImageButton
+            android:id="@+id/btnKhongThongThich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_unlike" />
+    </TableRow>
+</TableLayout>

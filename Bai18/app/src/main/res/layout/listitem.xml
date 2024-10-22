@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!-- Mã số bài hát -->
+    <TextView
+        android:id="@+id/tvMaSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="52300"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp" />
+
+    <!-- Tiêu đề bài hát -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Em là ai Tôi là ai"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp" />
+
+    <!-- Nút Love (thích) -->
+    <ImageButton
+        android:id="@+id/btnLove"
+        android:layout_width="47dp"
+        android:layout_height="64dp"
+        android:layout_weight="50"
+        android:scrollbarDefaultDelayBeforeFade="450"
+        android:src="@drawable/love" />
+
+    <!-- Nút Unlike (không thích) -->
+    <ImageButton
+        android:id="@+id/btnUnlike"
+        android:layout_width="89dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/unlike" />
+</LinearLayout>
