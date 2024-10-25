@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="vn.edu.tlu.bai23.MainActivity">
-<ListView
-android:id="@+id/lv1"
-android:layout_width="match_parent"
-android:layout_height="match_parent" />
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     </LinearLayout>
